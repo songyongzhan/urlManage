@@ -1,12 +1,14 @@
-#url管理类
+url管理类
+====
 项目中经常会遇到对一个url的解析，并修改参数后生成新的地址后使用。
 
-##url解析使用原理
+#url解析使用原理
+
 通过`parse_url`函数解析，并暂存起所有参数
 
 
 ##url类提供方法
-
+ 
 * 构造方法 __construct($url)
 * 删除url参数 delQuerys($name)
 * 添加url参数 addQuerys($key,$val)
@@ -18,7 +20,7 @@
 * 获取新的url getUrl()
 
 
-##使用方法
+###使用方法
 
 ```php
 require './vendor/autoload.php';
