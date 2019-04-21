@@ -7,8 +7,8 @@ url解析使用原理
 通过`parse_url`函数解析，并暂存起所有参数
 
 
-##url类提供方法
- 
+url类提供方法
+--------------------
 * 构造方法 __construct($url)
 * 删除url参数 delQuerys($name)
 * 添加url参数 addQuerys($key,$val)
@@ -20,8 +20,8 @@ url解析使用原理
 * 获取新的url getUrl()
 
 
-###使用方法
-
+使用方法
+--------------------
 ```php
 require './vendor/autoload.php';
 
